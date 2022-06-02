@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 int main(){
-	int num,cont=1,mult;
+	int num,cont,mult;
 	scanf("%d",&num);
-	while(cont<100){
+	for(cont=1;cont<=1000;cont++){
 		cont++;
 		mult=cont*num;
 	}
